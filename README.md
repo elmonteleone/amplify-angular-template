@@ -15,7 +15,9 @@ This template equips you with a foundational Angular.js application integrated w
 ## Deploying to AWS
 
 For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/angular/start/quickstart/#deploy-a-fullstack-app-to-aws) of our documentation.
-
+To be modified: 
+- amplify.yml (commands for building nodeJS)
+- package.json (engines: node with version)
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
