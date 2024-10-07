@@ -9,12 +9,12 @@ frontend:
   phases:
     build:
       commands:
-        # - npm install -g @angular/cli
-        # - ng version
-        # - ng build --configuration=production
         - nvm install 18.19.1
         - nvm use 18.19.1
         - npm install
+        - npm install -g @angular/cli
+        - ng version
+        - ng build --configuration=production
   artifacts:
     baseDirectory: dist/amplify-angular-template/browser
     files:
